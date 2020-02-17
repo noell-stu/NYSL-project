@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Contact NYSL</title>
+
+<link rel="stylesheet" href="assets/styles/nysl_3.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+
+</head>
+
+<body>
+
+    <!-- Header Top-->
+    <header class="header-top container group">
+        <h1 class="header-title">Northside Youth <br> Soccer League</h1>
+        <img class="header-img" src="assets/images/nysl_logo.png" alt="Logo NYSL">
+        <nav class="navmenu primary">
+            <ul>
+                <li><a href="index2.0.html">Home</a></li>
+                <li><a href="about2.0.html">About NYSL</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="game_info.html">Game Info</a></li>
+                <li><a class="active-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Header Bottom-->
+    <section class="header-bottom container">
+        <h2>Registration Form</h2>
+    </section>
+
+    <!-- Form-->
+    <section class="row-section">
+        <div class="column">
+
+            <form action="show_data.html" method="GET">
+                <fieldset class="register-form">
+
+                    <label>
+                        Player's First Name
+                        <input type="text" name="first_name" required>
+                    </label>
+
+                    <label>
+                        Last Name
+                        <input type="text" name="last_name" required>
+                    </label>
+
+                    <label>
+                        Street Address
+                        <input type="text" name="street_address" required>
+                    </label>
+
+                    <label>
+                        City
+                        <input type="text" name="city" required>
+                    </label>
+
+                    <label>
+                        Birth Date
+                        <input type="date" name="birthday" required>
+                    </label>
+
+                    <label>
+                        Parent/Guardian
+                        <input type="text" name="parent/guardian" required>
+                    </label>
+
+                    <label>
+                        Contact Phone
+                        <input type="tel" name="phone-number" required>
+                    </label>
+
+                    <label>
+                        Contact E-mail
+                        <input type="email" name="email-address" required>
+                    </label>
+
+                    <label>Which elementary schools do you live near?</label>
+                    <p>First Closest School:</p>
+                    <p>Second Closest School:</p>
+
+                    <select name="First Closest School:">
+                        First Closest School:
+                        <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                        <option value="Greenbay">Greenbay</option>
+                        <option value="Howard A Yeager">Howard A Yeager</option>
+                        <option value="Marjorie P Hart">Marjorie P Hart</option>
+                        <option value="North Elementary">North Elementary</option>
+                        <option value="South Elementary">South Elementary</option>
+                    </select>
+
+                    <select name="Second Closest School:">
+                        <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                        <option value="Greenbay">Greenbay</option>
+                        <option value="Howard A Yeager">Howard A Yeager</option>
+                        <option value="Marjorie P Hart">Marjorie P Hart</option>
+                        <option value="North Elementary">North Elementary</option>
+                        <option value="South Elementary">South Elementary</option>
+                    </select>
+
+                </fieldset>
+                <input class="button button-default" type="submit" name="submit" value="Submit" required>
+            </form>              
+
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer container group">
+        <small>&copy; Northside Youth Soccer League</small>
+        <nav class="navmenu">
+            <ul>
+                <li><a href="index2.0.html">Home</a></li>
+                <li><a href="about2.0.html">About NYSL</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="game_info.html">Game Info</a></li>
+                <li><a class="active-link">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

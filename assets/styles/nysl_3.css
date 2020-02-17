@@ -1,0 +1,541 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+body {
+  background: darkgreen;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+h1 {
+  color: white;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 300;
+  margin-bottom: 22px;
+}
+h2 {
+  color: #89c066;
+  font-size: 36px;
+  line-height: 44px;
+}
+h3 {
+  color: white;
+  font-size: 20px;
+  line-height: 44px;
+}
+h5 {
+  color: #89c066;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+th {
+  color: #89c066;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+p,
+td {
+  color: darkslategrey;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 22px;
+}
+li {
+  color: darkslategrey;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/*
+  ========================================
+  Navmenu
+  ========================================
+*/
+
+.navmenu {
+  text-align: right;
+}
+.navmenu li {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: top;
+}
+.primary {
+  padding-top: 12%;
+}
+.primary a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: lightgrey;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.button {
+  border-radius: 8px;
+  background: yellow;
+  color: darkgreen;
+  display: inline-block;
+  font-weight: 400;
+  border: 1px solid darkgreen;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  margin-left: 40%;
+  margin-bottom: 5%;
+}
+.button a {
+  color: darkgreen;
+  font-weight: bold;
+}
+.button:hover {
+  background: #ffffff;
+  color: darkgreen;
+}
+.button-default {
+  margin-left: 0;
+  background: yellow;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+
+/*
+  ========================================
+  Forms
+  ========================================
+*/
+
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.register-form label {
+  color: darkgreen;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-form input,
+.register-form select,
+.register-form textarea {
+  border: 1px solid grey;
+  border-radius: 8px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-form input,
+.register-form textarea {
+  width: 100%;
+}
+.register-form select {
+  height: 34px;
+  width: 260px;
+}
+.register-form textarea {
+  height: 78px;
+}
+
+/*
+  ========================================
+  Header Top
+  ========================================
+*/
+
+.header-title {
+  border-top: 4px solid #89c066;
+  float: left;
+  font-size: 43px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
+}
+.header-img {
+  position: absolute;
+  padding: 40px 0 22px 40px;
+  height: 100px;
+  width: 100px;
+}
+.primary {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/*
+  ========================================
+  Header Bottom
+  ========================================
+*/
+
+.header-bottom h2 {
+  padding: 22px 80px 40px 80px;
+  text-align: center;
+}
+#subtitle {
+  padding: 22px 80px 10px 80px;
+  text-align: center;
+}
+.header-bottom h3 {
+  padding: 22px 80px 20px 80px;
+  text-align: center;
+}
+
+/*
+  ========================================
+  Columns
+  ========================================
+*/
+
+.row {
+  background: white;
+  min-width: 960px;
+  padding: 50px 0 300px 0;
+}
+.row-section {
+  background: white;
+  min-width: 960px;
+  padding: 50px 0 50px 0;
+}
+.container,
+.section,
+.column {
+  margin: 0 auto;
+  width: 960px;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.box-1 {
+  float: left;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+.box-2 {
+  float: left;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+.box-3 {
+  float: left;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+.column img {
+  display: inline-block;
+  height: 150px;
+  width: 210px;
+  object-fit: cover;
+  object-position: center;
+}
+.section-1 {
+  position: relative;
+  width: 600px;
+  float: left;
+}
+.section-2 {
+  position: relative;
+  width: 600px;
+  float: left;
+}
+.section-3 {
+  position: relative;
+  width: 600px;
+  float: left;
+}
+.section img {
+  display: inline-block;
+  height: 150px;
+  width: 200px;
+  margin: 30px 0 0 20px;
+  padding: 4px;
+  object-fit: cover;
+  object-position: center;
+}
+.text-field {
+  float: left;
+  width: 300px;
+  height: 200px;
+}
+
+/*
+  ========================================
+  Rules & Policies
+  ========================================
+*/
+
+.list,
+.list-2 {
+  margin: 0 0 40px 0;
+}
+.square {
+  list-style-type: square;
+  margin-left: 5%;
+}
+.decimal {
+  list-style-type: decimal;
+  margin-left: 5%;
+}
+.circle {
+  list-style-type: circle;
+  margin-left: 5%;
+}
+.lower-alpha {
+  list-style-type: lower-alpha;
+  margin-left: 5%;
+  margin-bottom: 0px;
+}
+.list-2 .decimal > li {
+  margin: 0 0 25px 0;
+}
+
+/*
+  ========================================
+  Schedule
+  ========================================
+*/
+
+table {
+  margin-bottom: 40px;
+  width: 100%;
+}
+table:last-child {
+  margin-bottom: 0;
+}
+caption {
+  text-align: left;
+  font-style: italic;
+  font-weight: bold;
+}
+caption h5 {
+  color: darkslategrey;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: unset;
+  font-style: italic;
+  text-decoration: underline;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+th,
+td {
+  padding-bottom: 22px;
+  vertical-align: top;
+}
+th {
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+}
+td {
+  width: 30%;
+}
+.date {
+  padding-left: 5%;
+}
+.table-3 h2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 22px;
+}
+.text-field-2 {
+  padding-top: 30px;
+}
+.section-group {
+  padding-bottom: 80px;
+}
+.section-group p {
+  position: relative;
+  float: left;
+  padding-right: 15%;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.footer {
+  color: #89c066;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+.footer small {
+  float: left;
+  font-weight: 400;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}

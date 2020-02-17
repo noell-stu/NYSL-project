@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Contact NYSL</title>
+
+<link rel="stylesheet" href="assets/styles/nysl_3.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+
+</head>
+
+<body>
+
+    <!-- Header Top-->
+    <header class="header-top container group">
+        <h1 class="header-title">Northside Youth <br> Soccer League</h1>
+        <img class="header-img" src="assets/images/nysl_logo.png" alt="Logo NYSL">
+        <nav class="navmenu primary">
+            <ul>
+                <li><a href="index2.0.html">Home</a></li>
+                <li><a href="about2.0.html">About NYSL</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="game_info.html">Game Info</a></li>
+                <li><a class="active-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Header Bottom-->
+    <section class="header-bottom container">
+        <h2>Registration Form</h2>
+    </section>
+
+    <!-- Form-->
+
+    <section class="row">
+        <div class="column">
+
+          <script language="javascript">
+            var args = location.search.substr(1).split('&');
+            for (var i = 0; i < args.length; ++i) {
+              var parts = args[i].split('=');
+              if (parts != null) {
+                var field = parts[0];
+                var value = parts[1];
+                if (value == null) {
+                  value = "null"
+                }
+                else {
+                  value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+                }
+            
+                document.writeln('<tr><td align="center">' + field + '</td>');
+                document.writeln('<td align="center">' + value + '</td></tr>');
+              }
+            }
+            </script>             
+
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer container group">
+        <small>&copy; Northside Youth Soccer League</small>
+        <nav class="navmenu">
+            <ul>
+                <li><a href="index2.0.html">Home</a></li>
+                <li><a href="about2.0.html">About NYSL</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="game_info.html">Game Info</a></li>
+                <li><a class="active-link">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
