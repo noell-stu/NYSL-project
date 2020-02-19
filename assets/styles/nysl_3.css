@@ -268,37 +268,60 @@ form {
   margin-bottom: 22px;
 }
 input,
-select,
-textarea {
+select {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
-
 .register-form label {
   color: darkgreen;
   cursor: pointer;
   font-weight: 400;
 }
 .register-form input,
-.register-form select,
-.register-form textarea {
+.register-form select {
   border: 1px solid grey;
   border-radius: 8px;
-  color: #888;
+  color: grey;
   display: block;
-  margin: 5px 0 27px 0;
+  margin: 5px 0 30px 0;
   padding: 5px 8px;
 }
-.register-form input,
-.register-form textarea {
+.register-form input {
   width: 100%;
 }
 .register-form select {
   height: 34px;
   width: 260px;
 }
-.register-form textarea {
-  height: 78px;
+
+.drop-down {
+  display: inline-block;
+  margin-right: 15%;
+}
+.checkboxes {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 25px;
+  position: relative;
+  margin-right: 90px;
+  margin-bottom: 30px;
+}
+.checkboxes input {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/*
+  ========================================
+  Maps
+  ========================================
+*/
+
+.map {
+  height: 500px;
+  width: 100%;
+  border: 2px solid darkslategrey;
 }
 
 /*
@@ -424,6 +447,18 @@ textarea {
   float: left;
   width: 300px;
   height: 200px;
+}
+.sign {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: darkslategrey;
+  font-size: 15px;
+  font-weight: 300;
+}
+.sign span {
+  width: 30%;
+  border-bottom: 0.1em solid grey;
+  display: inline-block;
 }
 
 /*
